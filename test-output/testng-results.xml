@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-28T17:40:31 CET" name="Suite" finished-at="2021-02-28T17:40:58 CET" duration-ms="27392">
+    <groups>
+    </groups>
+    <test started-at="2021-02-28T17:40:31 CET" name="Test" finished-at="2021-02-28T17:40:58 CET" duration-ms="27392">
+      <class name="TestCases.GivenTestCase">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:TestCases.GivenTestCase@79da8dc5]" started-at="2021-02-28T17:40:31 CET" name="setup" finished-at="2021-02-28T17:40:41 CET" duration-ms="10197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://finanzen.check24.de/accounts/d/kreditkarte/result.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="printStatus()[pri:0, instance:TestCases.GivenTestCase@79da8dc5]" started-at="2021-02-28T17:40:41 CET" name="printStatus" finished-at="2021-02-28T17:40:41 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printStatus -->
+        <test-method signature="ClickOnCreditCard()[pri:1, instance:TestCases.GivenTestCase@79da8dc5]" started-at="2021-02-28T17:40:41 CET" name="ClickOnCreditCard" finished-at="2021-02-28T17:40:42 CET" duration-ms="702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnCreditCard -->
+        <test-method signature="EnterEmail()[pri:2, instance:TestCases.GivenTestCase@79da8dc5]" started-at="2021-02-28T17:40:42 CET" name="EnterEmail" finished-at="2021-02-28T17:40:58 CET" duration-ms="15776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.GivenTestCase@79da8dc5]" started-at="2021-02-28T17:40:58 CET" name="tearDown" finished-at="2021-02-28T17:40:58 CET" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.GivenTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

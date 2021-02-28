@@ -1,0 +1,6 @@
+PageObjects\WelcomePage.class
+PageObjects\EnterEmailPage.class
+TestCases\BaseClass.class
+TestCases\GivenTestCase.class
+PageObjects\CreditCardPage.class
+PageObjects\PersonalInfoPage.class
